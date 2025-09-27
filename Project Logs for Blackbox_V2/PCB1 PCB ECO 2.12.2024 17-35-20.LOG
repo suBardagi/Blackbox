@@ -1,0 +1,15 @@
+Added Component: Designator=BT?(BAT_1294)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1294"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBT?_N Pin=BT?-N
+Added Pin To Net: NetName=NetBT?_N Pin=C9-2
+Added Pin To Net: NetName=NetBT?_N Pin=U1-3
+Added Net: Name=NetBT?_N
+Added Pin To Net: NetName=NetBT?_P Pin=BT?-P
+Added Pin To Net: NetName=NetBT?_P Pin=SW1-1
+Added Net: Name=NetBT?_P
+Added Member To Class: ClassName=Power Member=Component BT? 1294

@@ -1,0 +1,828 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 bottom_layer
+
+# CMP 0
+CMP 16 7.30000064 35.50000012 0 N U2 LM1117IMPX-ADJ ;0=1,1=3.2000,5=0
+PRP Accuracy '1%'
+PRP Case/Package 'SOT-223'
+PRP Category 'Voltage Regulators - Linear'
+PRP ComponentLink1Description 'https://datasheet.ciiva.com/6588/lm1117-n-6588632.pdf?src-supplier=Digi-Key'
+PRP ComponentLink1URL 'https://datasheet.ciiva.com/6588/lm1117-n-6588632.pdf?src-supplier=Digi-Key'
+PRP ComponentLink2Description 'https://datasheet.ciiva.com/6588/lm1117-n-6588636.pdf?src-supplier=Digi-Key'
+PRP ComponentLink2URL 'https://datasheet.ciiva.com/6588/lm1117-n-6588636.pdf?src-supplier=Digi-Key'
+PRP ComponentLink3Description 'https://datasheet.ciiva.com/6588/lm1117-n-6588639.pdf?src-supplier=Digi-Key'
+PRP ComponentLink3URL 'https://datasheet.ciiva.com/6588/lm1117-n-6588639.pdf?src-supplier=Digi-Key'
+PRP Dropout_Voltage '1.2V'
+PRP Lead_Free 'Contains Lead'
+PRP Manufacturer 'Texas Instruments'
+PRP Manufacturer_Part_Number 'LM1117IMPX-3.3'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Output_Current '800mA'
+PRP Max_Input_Voltage '15V'
+PRP Min_Current_Limit '800mA'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Outputs '1'
+PRP Number_of_Pins '4'
+PRP Number_of_Regulators '1'
+PRP Output_Current '800mA'
+PRP Output_Type 'Fixed'
+PRP Output_Voltage '3.3V'
+PRP Output_Voltage_Accuracy '1%'
+PRP Package_Quantity '2000'
+PRP Packaging 'Tape and Reel'
+PRP Polarity 'Positive'
+PRP Quiescent_Current '15mA'
+PRP RoHS 'No'
+PRP Supplier_1 'Mouser'
+PRP Supplier_Part_Number_1 '926-M1117IMPXADJNOPB'
+TOP 0 9.99599982 37.8508006 270 N 30 6 1
+TOP 1 9.99599982 35.55080012 270 N 45 69 2
+TOP 2 9.99599982 33.25079964 270 N 44 30 3
+TOP 3 3.36300064 35.24600012 270 N 45 64 4
+#
+# CMP 1
+CMP 1 2.59999988 50.5000006 180 N SW1 418121270801 ;0=1,1=3.6200,5=0
+PRP Actuator_Type 'Raise Type'
+PRP Category 'Dip Switches'
+PRP ComponentLink1Description 'Website Link'
+PRP ComponentLink1URL 'https://www.we-online.com/redexpert/article/418121270801?ad'
+PRP ComponentLink2Description 'Datasheet Link'
+PRP ComponentLink2URL 'https://www.we-online.com/redexpert/spec/418121270801?ad'
+PRP Contact_Material 'Copper Alloy'
+PRP Contact_Plating 'Gold'
+PRP Manufacturer 'Wurth Elektronik'
+PRP Manufacturer_Part_Number '418121270801'
+PRP Match_Code 'WS-DISV'
+PRP Mount 'Surface Mount'
+PRP Number_of_Poles '1'
+PRP Operating_Temperature_Max '85°C'
+PRP Operating_Temperature_Min '-40°C'
+PRP Operation_Force '600g'
+PRP Packaging 'Tape and Reel'
+PRP Pitch '2.54mm'
+PRP Rated_Current_Non-Switching '100mA'
+PRP Rated_Current_Switching '25mA'
+PRP Rated_Voltage_Non-Switching '50VDC'
+PRP Rated_Voltage_Switching '24VDC'
+TOP 0 2.59999988 54.89999942 0 N 33 1 1
+TOP 1 2.59999988 46.10000178 0 N 34 14 2
+#
+# CMP 2
+CMP 14 22.99999972 3.50000062 180 N R15 61.9_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/2176091-4/4033895'
+PRP Composition 'Thin Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:01:14'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '2176091-4'
+PRP Part_Status 'Active'
+PRP partid '46762'
+PRP Power_(Watts) '0.25W, 1/4W'
+PRP Price '0.14'
+PRP Resistance '61.9 Ohms'
+PRP Series 'RP73P, Holsworthy'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0805'
+PRP Supplier_Part_Number_1 'A110427CT-ND'
+PRP Temperature_Coefficient '±25ppm/°C'
+PRP Tolerance '±0.1%'
+PRP Value '61.9 Ohms'
+TOP 0 22.1250002 3.50000062 90 N 27 5 1
+TOP 1 23.87499924 3.50000062 90 N 42 8 2
+#
+# CMP 3
+CMP 14 16.99999902 3.50000062 0 N R14 61.9_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/2176091-4/4033895'
+PRP Composition 'Thin Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:01:14'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '2176091-4'
+PRP Part_Status 'Active'
+PRP partid '46762'
+PRP Power_(Watts) '0.25W, 1/4W'
+PRP Price '0.14'
+PRP Resistance '61.9 Ohms'
+PRP Series 'RP73P, Holsworthy'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0805'
+PRP Supplier_Part_Number_1 'A110427CT-ND'
+PRP Temperature_Coefficient '±25ppm/°C'
+PRP Tolerance '±0.1%'
+PRP Value '61.9 Ohms'
+TOP 0 17.87499854 3.50000062 270 N 27 4 1
+TOP 1 16.1249995 3.50000062 270 N 41 8 2
+#
+# CMP 4
+CMP 14 34.79999898 42.90000056 0 N R12 470_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/3430A2F470RTDF/17763718'
+PRP Composition 'Thick Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Features 'Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:00:03'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '3430A2F470RTDF'
+PRP Part_Status 'Active'
+PRP partid '77780'
+PRP Power_(Watts) '1W'
+PRP Price '0.02'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '470 Ohms'
+PRP Series '3430'
+PRP Size_/_Dimension '0.049_ L x 0.079_ W (1.25mm x 2.00mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0508'
+PRP Supplier_Part_Number_1 '1712-3430A2F470RTDFCT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+PRP Value '470 Ohms'
+TOP 0 35.6749985 42.90000056 270 N 45 62 1
+TOP 1 33.92499946 42.90000056 270 N 22 0 2
+#
+# CMP 5
+CMP 14 30.89999916 42.90000056 0 N R11 0_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://www.keyelco.com/product-pdf.cfm?p=14350'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/keystone-electronics/5107/7942981'
+PRP Composition 'Metal Element'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Height_-_Seated_(Max) '0.033_ (0.84mm)'
+PRP lastupdated '8.02.2024 21:01:23'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Keystone Electronics'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '5107'
+PRP Part_Status 'Active'
+PRP partid '45276'
+PRP Power_(Watts) '0.5W, 1/2W'
+PRP Price '0.16'
+PRP Resistance '0 Ohms'
+PRP Series '-'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0805'
+PRP Supplier_Part_Number_1 '36-5107CT-ND'
+PRP Tolerance 'Jumper'
+PRP Value '0 Ohms'
+TOP 0 31.77499868 42.90000056 270 N 8 0 1
+TOP 1 30.02499964 42.90000056 270 N 16 1 2
+#
+# CMP 6
+CMP 14 10.20000246 45.5999977 270 N R5 390_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/3430A2F390RTDF/17763108'
+PRP Composition 'Thick Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Features 'Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:00:03'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '3430A2F390RTDF'
+PRP Part_Status 'Active'
+PRP partid '77771'
+PRP Power_(Watts) '1W'
+PRP Price '0.02'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '390 Ohms'
+PRP Series '3430'
+PRP Size_/_Dimension '0.049_ L x 0.079_ W (1.25mm x 2.00mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0508'
+PRP Supplier_Part_Number_1 '1712-3430A2F390RTDFCT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+PRP Value '390 Ohms'
+TOP 0 10.20000246 44.72499818 0 N 34 11 1
+TOP 1 10.20000246 46.47499722 0 N 31 4 2
+#
+# CMP 7
+CMP 14 2.89999928 41.40000102 0 N R4 330_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/3430A2F330RTDF/17762827'
+PRP Composition 'Thick Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Features 'Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:00:04'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '3430A2F330RTDF'
+PRP Part_Status 'Active'
+PRP partid '77524'
+PRP Power_(Watts) '1W'
+PRP Price '0.02'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '330 Ohms'
+PRP Series '3430'
+PRP Size_/_Dimension '0.049_ L x 0.079_ W (1.25mm x 2.00mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0508'
+PRP Supplier_Part_Number_1 '1712-3430A2F330RTDFCT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+PRP Value '330 Ohms'
+TOP 0 3.7749988 41.40000102 270 N 24 1 1
+TOP 1 2.02499976 41.40000102 270 N 45 63 2
+#
+# CMP 8
+CMP 14 6.6999993 49.79999946 0 N R1 130_Ohms ;0=1,1=0.7000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/te-connectivity-passive-product/3-2176091-5/4033926'
+PRP Composition 'Thin Film'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Height_-_Seated_(Max) '0.026_ (0.65mm)'
+PRP lastupdated '8.02.2024 21:00:46'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number '3-2176091-5'
+PRP Part_Status 'Active'
+PRP partid '49761'
+PRP Power_(Watts) '0.25W, 1/4W'
+PRP Price '0.14'
+PRP Resistance '130 Ohms'
+PRP Series 'RP73P, Holsworthy'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0805'
+PRP Supplier_Part_Number_1 'A110458CT-ND'
+PRP Temperature_Coefficient '±25ppm/°C'
+PRP Tolerance '±0.1%'
+PRP Value '130 Ohms'
+TOP 0 7.57499882 49.79999946 270 N 31 5 1
+TOP 1 5.82499978 49.79999946 270 N 44 28 2
+#
+# CMP 9
+CMP 0 32.9999975 55.00000176 90 N J4 BC501SM-TR ;0=1,1=3.2000,5=0
+PRP Digi-Key_Part_Number 'BC501SM-TRCT-ND'
+PRP Digi-Key_Purchase_URL 'https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BC501SM-TR/BC501SM-TRCT-ND/5418194?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol'
+PRP MF 'MPD _Memory'
+PRP MP 'BC501SM-TR'
+PRP Package 'DFN-8 MPD'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/BC501SM-TR/MPD%20%28Memory%20Protection%20Devices%29/view-part/479427/?ref=snap'
+PRP Value ''
+TOP 0 32.9999975 62.57000186 90 N 34 68 NEG
+TOP 1 32.9999975 51.00000214 90 N 0 27 None
+TOP 2 32.9999975 58.50000238 90 N 0 28 None
+TOP 3 32.9999975 46.77000298 90 N 1 5 POS
+#
+# CMP 10
+CMP 6 32.1999991 33.00000004 90 N J2 693071030811 ;0=1,1=1.3000,5=0
+PRP Category 'Input/Output Connectors'
+PRP ComponentLink1Description 'Website Link'
+PRP ComponentLink1URL 'https://www.we-online.com/redexpert/article/693071030811?ad'
+PRP ComponentLink2Description 'Datasheet Link'
+PRP ComponentLink2URL 'https://www.we-online.com/redexpert/spec/693071030811?ad'
+PRP Contact_Resistance '100mOhm'
+PRP Gender 'Socket'
+PRP Manufacturer 'Wurth Elektronik'
+PRP Manufacturer_Part_Number '693071030811'
+PRP Match_Code 'WR-CRD'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '8'
+PRP Operating_Temperature_Max '85°C'
+PRP Operating_Temperature_Min '-25°C'
+PRP Packaging 'Tape and Reel'
+PRP Rated_Current '0.5A'
+PRP Type 'Push & Push'
+PRP Withstanding_Voltage '500VAC'
+PRP Working_Voltage '30VAC'
+TOP 0 24.7299988 30.64999966 90 N 0 15 1
+TOP 1 24.7299988 31.54999786 90 N 20 6 2
+TOP 2 24.7299988 32.4499986 90 N 19 6 3
+TOP 3 24.7299988 33.34999934 90 N 45 70 4
+TOP 4 24.7299988 34.25000008 90 N 18 6 5
+TOP 5 24.7299988 35.14999828 90 N 34 25 6
+TOP 6 24.7299988 36.04999902 90 N 17 4 7
+TOP 7 24.7299988 36.94999976 90 N 0 14 8
+TOP 8 24.6799989 38.51999916 90 N 16 2 9
+TOP 9 31.68000014 39.88999896 90 N 34 20 10
+TOP 10 25.08000064 40.10000108 90 N 34 23 11
+TOP 11 25.08000064 25.7999992 90 N 34 26 11
+TOP 12 34.62999932 39.95000138 90 N 34 19 11
+TOP 13 36.56000054 39.95000138 90 N 34 22 11
+TOP 14 38.77999864 40.10000108 90 N 34 21 11
+TOP 15 28.98000046 26.21000092 90 N 34 44 11
+TOP 16 34.42999972 26.21000092 90 N 34 67 11
+TOP 17 36.56000054 25.95000144 90 N 34 66 11
+TOP 18 38.77999864 25.7999992 90 N 34 69 11
+#
+# CMP 11
+CMP 9 4.49999608 25.6999994 270 N C33 2.2__F ;0=1,1=1.1500,5=0
+PRP Applications 'SMPS Filtering'
+PRP Capacitance '2.2 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212B7225MG-TR/6563525'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:05'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Taiyo Yuden'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'TMK212B7225MG-TR'
+PRP Part_Status 'Active'
+PRP partid '3807'
+PRP Price '0.04'
+PRP Series 'M'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '587-4932-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.053_ (1.35mm)'
+PRP Tolerance '±20%'
+PRP Value '2.2 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 4.49999608 24.89999846 0 N 34 42 1
+TOP 1 4.49999608 26.4999978 0 N 37 6 2
+#
+# CMP 12
+CMP 9 6.8999989 25.60000214 270 N C32 2.2__F ;0=1,1=1.1500,5=0
+PRP Applications 'SMPS Filtering'
+PRP Capacitance '2.2 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212B7225MG-TR/6563525'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:05'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Taiyo Yuden'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'TMK212B7225MG-TR'
+PRP Part_Status 'Active'
+PRP partid '3807'
+PRP Price '0.04'
+PRP Series 'M'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '587-4932-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.053_ (1.35mm)'
+PRP Tolerance '±20%'
+PRP Value '2.2 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 6.8999989 24.8000012 0 N 34 12 1
+TOP 1 6.8999989 26.40000054 0 N 35 7 2
+#
+# CMP 13
+CMP 9 23.39999892 52.90000088 0 N C31 2.2__F ;0=1,1=1.1500,5=0
+PRP Applications 'SMPS Filtering'
+PRP Capacitance '2.2 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212B7225MG-TR/6563525'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:05'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Taiyo Yuden'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'TMK212B7225MG-TR'
+PRP Part_Status 'Active'
+PRP partid '3807'
+PRP Price '0.04'
+PRP Series 'M'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '587-4932-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.053_ (1.35mm)'
+PRP Tolerance '±20%'
+PRP Value '2.2 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 24.19999986 52.90000088 270 N 34 15 1
+TOP 1 22.60000052 52.90000088 270 N 4 7 2
+#
+# CMP 14
+CMP 9 17.60000036 52.90000088 180 N C30 2.2__F ;0=1,1=1.1500,5=0
+PRP Applications 'SMPS Filtering'
+PRP Capacitance '2.2 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212B7225MG-TR/6563525'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:05'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Taiyo Yuden'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'TMK212B7225MG-TR'
+PRP Part_Status 'Active'
+PRP partid '3807'
+PRP Price '0.04'
+PRP Series 'M'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '587-4932-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.053_ (1.35mm)'
+PRP Tolerance '±20%'
+PRP Value '2.2 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 16.79999942 52.90000088 90 N 34 43 1
+TOP 1 18.39999876 52.90000088 90 N 2 6 2
+#
+# CMP 15
+CMP 9 20.20000024 56.09999956 0 N C29 0.1__F ;0=1,1=1.1500,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/yageo/CC0805MRX7R9BB104/5884281'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CC0805MRX7R9BB104'
+PRP Part_Status 'Active'
+PRP partid '2475'
+PRP Price '0.01'
+PRP Series 'CC'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-4351-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.95mm)'
+PRP Tolerance '±20%'
+PRP Value '0.1 µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 21.00000118 56.09999956 270 N 34 36 1
+TOP 1 19.40000184 56.09999956 270 N 45 67 2
+#
+# CMP 16
+CMP 9 5.79999602 22.80000012 180 N C28 0.1__F ;0=1,1=1.1500,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/yageo/CC0805MRX7R9BB104/5884281'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CC0805MRX7R9BB104'
+PRP Part_Status 'Active'
+PRP partid '2475'
+PRP Price '0.01'
+PRP Series 'CC'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-4351-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.95mm)'
+PRP Tolerance '±20%'
+PRP Value '0.1 µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 4.99999508 22.80000012 90 N 34 18 1
+TOP 1 6.59999442 22.80000012 90 N 45 73 2
+#
+# CMP 17
+CMP 9 13.50000094 48.90000126 270 N C22 0.1__F ;0=1,1=1.1500,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/yageo/CC0805MRX7R9BB104/5884281'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CC0805MRX7R9BB104'
+PRP Part_Status 'Active'
+PRP partid '2475'
+PRP Price '0.01'
+PRP Series 'CC'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-4351-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.95mm)'
+PRP Tolerance '±20%'
+PRP Value '0.1 µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 13.50000094 48.10000032 0 N 45 66 1
+TOP 1 13.50000094 49.69999966 0 N 34 37 2
+#
+# CMP 18
+CMP 9 20.00000064 2.50000008 270 N C21 4.7__F ;0=1,1=1.1500,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '4.7 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B475KAFNNNE.jsp'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B475KAFNNNE/3888627'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:07'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Samsung Electro-Mechanics'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CL21B475KAFNNNE'
+PRP Part_Status 'Active'
+PRP partid '3072'
+PRP Price '0.08'
+PRP Series 'CL'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1276-2969-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.053_ (1.35mm)'
+PRP Tolerance '±10%'
+PRP Value '4.7 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 20.00000064 1.69999914 0 N 34 40 1
+TOP 1 20.00000064 3.29999848 0 N 27 6 2
+#
+# CMP 19
+CMP 9 5.59999896 15.00000048 180 N C19 10__F ;0=1,1=1.1500,5=0
+PRP Part_Number 'CL21Y106KPQVPNE'
+PRP Value '10 µF'
+TOP 0 4.79999802 15.00000048 90 N 44 29 1
+TOP 1 6.39999736 15.00000048 90 N 34 41 2
+#
+# CMP 20
+CMP 9 5.8000011 19.90000084 0 N C18 0.1__F ;0=1,1=1.1500,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/yageo/CC0805MRX7R9BB104/5884281'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CC0805MRX7R9BB104'
+PRP Part_Status 'Active'
+PRP partid '2475'
+PRP Price '0.01'
+PRP Series 'CC'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-4351-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.95mm)'
+PRP Tolerance '±20%'
+PRP Value '0.1 µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 6.60000204 19.90000084 270 N 34 24 1
+TOP 1 5.0000027 19.90000084 270 N 44 32 2
+#
+# CMP 21
+CMP 9 10.39999952 40.60000262 90 N C14 10__F ;0=1,1=1.1500,5=0
+PRP Part_Number 'CL21Y106KPQVPNE'
+PRP Value '10 µF'
+TOP 0 10.39999952 41.40000356 180 N 34 16 1
+TOP 1 10.39999952 39.80000422 180 N 30 7 2
+#
+# CMP 22
+CMP 9 14.09999974 37.600001 0 N C12 100__F ;0=1,1=1.1500,5=0
+PRP Part_Number 'PMK212BBJ107MG-T'
+PRP Value '100 µF'
+TOP 0 14.90000068 37.600001 270 N 34 17 1
+TOP 1 13.30000134 37.600001 270 N 45 74 2
+#
+# CMP 23
+CMP 9 18.7000007 34.10000038 0 N C4 10000_pF ;0=1,1=1.1500,5=0
+PRP Applications 'Automotive, ESD Protection'
+PRP Capacitance '10000 pF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0805C103J3GECAUTO.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/kemet/C0805C103J3GECAUTO/8647361'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Features 'Low ESL'
+PRP lastupdated '9.02.2024 20:15:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'KEMET'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'C0805C103J3GECAUTO'
+PRP Part_Status 'Active'
+PRP partid '32681'
+PRP Price '0.05'
+PRP Ratings 'AEC-Q200'
+PRP Series 'ESD SMD Auto C0G'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '399-C0805C103J3GECAUTOCT-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.039_ (1.00mm)'
+PRP Tolerance '±5%'
+PRP Value '10000 pF'
+PRP Voltage_-_Rated '25V'
+TOP 0 19.50000164 34.10000038 270 N 34 13 1
+TOP 1 17.9000023 34.10000038 270 N 45 76 2
+#
+# CMP 24
+CMP 9 20.89999884 37.09999946 90 N C3 10__F ;0=1,1=1.1500,5=0
+PRP Applications 'Bypass, Decoupling'
+PRP Capacitance '10 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0805C106K3PAC7800.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/kemet/C0805C106K3PAC7800/5267604'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:15:18'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'KEMET'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'C0805C106K3PAC7800'
+PRP Part_Status 'Active'
+PRP partid '18542'
+PRP Price '0.03'
+PRP Series 'SMD Comm X5R'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '399-11939-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.057_ (1.45mm)'
+PRP Tolerance '±10%'
+PRP Value '10 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 20.89999884 37.9000004 180 N 45 65 1
+TOP 1 20.89999884 36.30000106 180 N 34 38 2
+#
+# CMP 25
+CMP 9 18.8000005 37.09999946 270 N C2 10000_pF ;0=1,1=1.1500,5=0
+PRP Applications 'Automotive, ESD Protection'
+PRP Capacitance '10000 pF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0805C103J3GECAUTO.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/kemet/C0805C103J3GECAUTO/8647361'
+PRP Device_Package '0805 (2012 Metric)'
+PRP Features 'Low ESL'
+PRP lastupdated '9.02.2024 20:15:09'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'KEMET'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'C0805C103J3GECAUTO'
+PRP Part_Status 'Active'
+PRP partid '32681'
+PRP Price '0.05'
+PRP Ratings 'AEC-Q200'
+PRP Series 'ESD SMD Auto C0G'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '399-C0805C103J3GECAUTOCT-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.039_ (1.00mm)'
+PRP Tolerance '±5%'
+PRP Value '10000 pF'
+PRP Voltage_-_Rated '25V'
+TOP 0 18.8000005 36.29999852 0 N 34 39 1
+TOP 1 18.8000005 37.89999786 0 N 45 68 2
+#
+# CMP 26
+CMP 9 18.7000007 31.9999995 180 N C1 10__F ;0=1,1=1.1500,5=0
+PRP Applications 'Bypass, Decoupling'
+PRP Capacitance '10 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0805C106K3PAC7800.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/kemet/C0805C106K3PAC7800/5267604'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:15:18'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'KEMET'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'C0805C106K3PAC7800'
+PRP Part_Status 'Active'
+PRP partid '18542'
+PRP Price '0.03'
+PRP Series 'SMD Comm X5R'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '399-11939-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.057_ (1.45mm)'
+PRP Tolerance '±10%'
+PRP Value '10 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 17.89999976 31.9999995 90 N 45 75 1
+TOP 1 19.4999991 31.9999995 90 N 34 10 2
+#
